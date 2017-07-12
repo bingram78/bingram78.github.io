@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Blake Ingram Portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet">
+    <link rel="stylesheet" href="css/style-final.css">
+  </head>
+  <body>
+    <div class="container">
+<!--header across top. need to adjust for smaller name on smaller screens later.-->
+      <header class="row">
+        <div class="col-sm-6">
+          <img class="logo" src="images/hungry-croc-logo.svg" alt="hungry croc logo">
+        </div>
+        <div class="col-sm-6 text-right">
+          <h1 class="name-super">Blake Ingram</h1>
+          <h2 class="name-smaller">Front-End Developer</h2>
+        </div>
+      </header>
+<!--main section after header.-->
+      <section class="row">
+        <div class="col-sm-12">
+          <figure>
+            <!--Fix the image below to be even more responsive, e.g. Load 3 images at different vw's.-->
+              <img class="img-responsive center-block" src="images/beach-panaroma-palawan-600w.jpg" srcset="images/beach-panaroma-palawan-600w.jpg 600w, images/beach-panaroma-palawan-1600w.jpg 1600w" sizes="(max-width:600px) 400px, 100vw" alt="Panorama of Beach in Palawan, Philippines">
+              <figcaption class="text-center">Palawan, Philippines</figcaption>
+          </figure>
+        </div>
+        <hr>
+        <div class="col-sm-12">
+          <h3 class="featured-color">Featured Work</h3>
+        </div>
+        <div class="text-center">
+          <article class="col-sm-4">
+<!--Add in my projects as they are completed using the format below-->
+            <a href="neighborhood-map/index.html">
+              <img class="img-responsive" src="images/sunrise-cebu-400w.jpg" alt="Sunrise from Cebu, Philippines">
+              <h4>Neighborhood Map Project</h4>
+            </a>
+            <p>As part of a Front-end Nanodegree with Udacity, I created a neighborhood map. It utilizes Google Maps API, KnockoutJS, Flickr API, JQuery, and Bootstrap.</p>
+          </article>
+          <article class="col-sm-4">
+            <a href="resume/index.html">
+              <img class="img-responsive" src="images/island-palawan-400w.jpg" alt="image holder project 1">
+              <h4>Resume Project</h4>
+            </a>
+              <p>This is another Udacity project that I worked on to get used to Javascript and some API work. It needs to be updated and cleaned up though.</p>
+          </article>
+          <article class="col-sm-4">
+            <a href="https://github.com/bingram78">
+              <img class="img-responsive" src="images/sunset-borocay-400w.jpg" alt="image holder project 1">
+              <h4>My Github</h4>
+            </a>
+            <p>Checkout my github page where I am going to be continuing to post my projects or practice.</p>
+          </article>
+        </div>
+      </section>
+<!--Add footer with contact information once all are complete.-->
+    </div>
+  </body>
+
+</html>
